@@ -55,7 +55,7 @@ def decrypt_file(filepath: str, key: str, savepath: str):
 class EncryptorGUI:
     def __init__(self, root):
         self.root = root
-        root.title('Encrypt/Decrypt Anything')
+        root.title('what the fuck is a key')
         root.geometry('500x500')
         root.resizable(False, False)
         root.configure(bg='#23272f')
